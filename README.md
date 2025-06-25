@@ -98,7 +98,7 @@ The base flow consists of:
 
 ## Notes
 
-- ADF pipeline is not included here due to technical limitations but its logic is fully described.
+- The ADF pipeline is included in this repository under pipelines/Contoso_Ingestion.json. Although the pipeline cannot be executed directly from GitHub, the JSON can be imported into any Azure Data Factory environment to reproduce the orchestration.
 - This PoC focuses on a `file` origin but is designed to support others like:
   - **Databases** (via JDBC or ADF Copy Activity)
   - **Kafka** (via streaming ingestion)
